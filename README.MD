@@ -9,6 +9,7 @@ A real-time flood response system for Bangladesh, integrating resource tracking,
 ![Screenshot](public/screenshot.png)
 
 ## Features 🚀
+
 - Interactive flood severity map with color-coded markers
 - CRUD operations for resource management
 - Volunteer registration portal
@@ -20,38 +21,43 @@ A real-time flood response system for Bangladesh, integrating resource tracking,
 ## Installation 💻
 
 ### Prerequisites
+
 - Node.js v18.x+
 - npm v9.x+
 - SQLite3
 
 ### Steps
+
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/rescue-map-bd.git
    cd rescue-map-bd
 
+   ```
+
 2. Install backend dependencies
-    cd rescue-backend
-    npm install
+   cd rescue-backend
+   npm install
 3. Install frontend dependencies
-    cd ../rescue-frontend
-    npm install
+   cd ../rescue-frontend
+   npm install
 4. Configure environment
-    # Create .env file for backend
-    echo "PORT=5000" > ../rescue-backend/.env
+   # Create .env file for backend
+   echo "PORT=5000" > ../rescue-backend/.env
 5. Initialize database
-    cd ../rescue-backend
-    npm run init-db
+   cd ../rescue-backend
+   npm run init-db
 6. Start development servers
-    # In separate terminals:
-    cd rescue-backend && npm start
-    cd rescue-frontend && npm start
+   # In separate terminals:
+   cd rescue-backend && npm start
+   cd rescue-frontend && npm start
 
 Configuration ⚙️
-File	                            Purpose
-rescue-backend/.env	                Server port configuration
-rescue-backend/database.js	        Database connection settings
-rescue-frontend/src/config.js	    API endpoint configuration
+File Purpose
+rescue-backend/.env Server port configuration
+rescue-backend/database.js Database connection settings
+rescue-frontend/src/config.js API endpoint configuration
 
 Default Admin Credentials (Change in production!):
 Username: admin
