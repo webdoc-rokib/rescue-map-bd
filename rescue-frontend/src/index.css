@@ -1,0 +1,25 @@
+:root {
+    --primary-blue: #007bff;      /* Main brand color */
+    --alert-red: #dc3545;         /* High severity */
+    --warning-orange: #ffc107;    /* Medium severity */
+    --safe-green: #28a745;        /* Low severity */
+    --brand-teal: #20c997;        /* Accent color */
+  }
+  
+  .brand-gradient {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--brand-teal) 100%);
+  }
+
+  .btn-brand {
+    background: var(--primary-blue);
+    color: white !important;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 2px solid var(--primary-blue);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-brand:hover {
+    background: transparent;
+    color: var(--primary-blue) !important;
+  }
